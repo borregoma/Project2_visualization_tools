@@ -24,9 +24,17 @@ o	Marcelo F
 o	Omar R
 o	Manuel B
 •       Documentation (finding a data set):
+
 o	https://www.inegi.org.mx/
 
 o	https://datamexico.org/
+
+o	https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva
+
+o	https://www.inegi.org.mx/programas/enoe/15ymas/ 
+
+o	https://mexicocomovamos.mx/datos/
+
 
 • If a car manufacturer wanted to open up a new plant in Mexico, where should it open it? (what state and why)
 Main variables to review:
