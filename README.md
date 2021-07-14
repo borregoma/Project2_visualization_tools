@@ -29,7 +29,20 @@ o	https://www.inegi.org.mx/
 o	https://datamexico.org/
 
 •       Project Scope (This project will answer the following questions):
-o	Location of car manufacturer in Mexico
-o	Car distribution in Mexico
-o	Car Overall Sales (Local & Export)
-o	Which state in Mexico is better suited to open a new manufacturer plant.
+If a car manufacturer wanted to open up a new plant in Mexico, where should it open it? (what state and why)
+
+Main variables to review:
+o	Location of potential plant
+Skilled workforce (engineers,import/export experts, etc.)
+Overall Infrastructure (highways, ports, airports, customs, etc.)
+"Travel salesman algorithm" - Most efficient route to major US highways
+Distributed low-cost supply chain
+Car distribution in Mexico
+Car Overall Sales (Local & Export)
+
+In addition, there are other external factors for any major international company to review when conducting major operations in the country such as:
+- Safety / violence level
+- Investment support (aid by state and local governments, grants, deferred taxes, drawback programs, etc.)
+- Corruption levels 
+- Environmental conditions (ex: Tabasco might not be a great place due to annual floodings, etc. )
+- Experience with other major international firms (clusters, greenfields, etc.)
