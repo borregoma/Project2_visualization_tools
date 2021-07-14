@@ -45,4 +45,4 @@ In addition, there are other external factors for any major international compan
 - Environmental conditions (ex: Tabasco might not be a great place due to annual floodings, etc. )
 - Experience with other major international firms (clusters, greenfields, etc.)
 
--
+Google docs: https://docs.google.com/document/d/1lqAUKZqGgMjGL75DeoulSWbWgTQkuONL6dY3xmcEkHI/edit
