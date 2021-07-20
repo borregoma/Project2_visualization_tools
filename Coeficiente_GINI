@@ -1,0 +1,2358 @@
+MIME-Version: 1.0
+X-Document-Type: Workbook
+Content-Type: multipart/related; boundary="====Boundary===="
+
+--====Boundary====
+Content-Location: file:///C:/.XHT
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="windows-1252"
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+  
+<HEAD>
+<meta name="Excel Workbook Frameset">
+  
+<xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Indicador</x:Name>
+    <x:WorksheetSource HRef="./IBIT0001.xht"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Notas</x:Name>
+    <x:WorksheetSource HRef="./IBIT0002.xht"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetSource HRef="./IBIT0003.xht"/>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+ </x:ExcelWorkbook>
+</xml>
+</HEAD>
+</HTML>
+
+--====Boundary====
+Content-Location: file:///C:/IBIT0001.xht
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="windows-1252"
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+  
+<HEAD>
+<style>
+<!--table
+        {mso-displayed-decimal-separator:"\.";
+        mso-displayed-thousand-separator:"\,";}
+@page
+        {margin:1.0in .75in 1.0in .75in;
+        mso-header-margin:.5in;
+        mso-footer-margin:.5in;}
+tr
+        {mso-height-source:auto;}
+col
+        {mso-width-source:auto;}
+br
+        {mso-data-placement:same-cell;}
+.style21
+        {color:blue;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        mso-style-name:Hyperlink;
+        mso-style-id:8;}
+a:link
+        {color:blue;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;}
+a:visited
+        {color:purple;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;}
+.style0
+        {mso-number-format:General;
+        text-align:general;
+        vertical-align:bottom;
+        white-space:nowrap;
+        mso-rotate:0;
+        mso-background-source:auto;
+        mso-pattern:auto;
+        color:windowtext;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        border:none;
+        mso-protection:locked visible;
+        mso-style-name:Normal;
+        mso-style-id:0;}
+td
+        {mso-style-parent:style0;
+        padding:1px;
+        mso-ignore:padding;
+        color:windowtext;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        mso-number-format:General;
+        text-align:general;
+        vertical-align:bottom;
+        border:none;
+        mso-background-source:auto;
+        mso-pattern:auto;
+        mso-protection:locked visible;
+        white-space:nowrap;
+        mso-rotate:0;}
+.xl100
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl100r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl100D20_4
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl100D20_2
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl102_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl102r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl102D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl102_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl102r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl102D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl104_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl104r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl104D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl104_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl104r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl104D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl105_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl105r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl105D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl105_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl105r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl105D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl106_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl106r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl106D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl106_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl106r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl106D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl107_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl107r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl107D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl107_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl107r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl107D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl108_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl108r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl108D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl108_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl108r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl108D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl109_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl109r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl109_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl109r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl110_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl110r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl110_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl110r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl111_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl111r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl111D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl111_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl111r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl111D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl112_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl112r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl112D20_4_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl112_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl112r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl112D20_4_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl116
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl116r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl117
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl117r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl118
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl118r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl118D20_4
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl119
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl119r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl119D20_4
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl120
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl120r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl120D20_4
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl121
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl121r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl121D20_4
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl122
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl122r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl122D20_4
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl126
+        {mso-style-parent:style0;
+        color:#808080;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl127
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl127D20_2
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl128
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl128D20_2
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl129
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl129D20_2
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl130
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl130D20_2
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl131
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl131D20_2
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl132
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl132D20_2
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl133
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl133D20_2
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl137
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl138
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl138r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl138D20_4
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl138D20_2
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl139
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl139r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl139D20_4
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl139D20_2
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl140
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl140r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl140D20_4
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl140D20_2
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl141
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl141r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl141D20_4
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl141D20_2
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl142
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl142r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl142D20_4
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        mso-number-format:"\#\,\#\#\#0.0000";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl142D20_2
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl149
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl149r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl149D20_2
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        mso-number-format:"\#\,\#\#\#0.00";
+        white-space:nowrap;
+        mso-font-charset:0;}
+-->
+</style>
+<xml>
+ <x:WorksheetOptions>
+  <x:ProtectObjects>False</x:ProtectObjects>
+ </x:WorksheetOptions>
+</xml>
+</HEAD>
+  
+<BODY>
+  
+<TABLE X:STR BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<col style='mso-width-source:userset;width:56pt'>
+<col style='mso-width-source:userset;width:8pt'>
+<col style='mso-width-source:userset;width:29pt'>
+<col style='mso-width-source:userset;width:29pt'>
+<col style='mso-width-source:userset;width:22pt'>
+<col style='mso-width-source:userset;width:22pt'>
+<TR>
+<TD COLSPAN=6 class=xl126>
+<FONT class=xl126>Coeficiente de Gini                                                                                                                                                             </FONT>
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=6 class=xl100>
+<FONT class=xl100>&nbsp;</FONT>
+</TD>
+</TR>
+<TR>
+<TD></TD>
+<TD class=xl129>2010</TD>
+<TD class=xl130>2012</TD>
+<TD class=xl131>2014</TD>
+<TD class=xl132>2016</TD>
+<TD class=xl133>2018</TD>
+</TR>
+<TR>
+<TD class=xl117>Entidad federativa</TD>
+<TD class=xl118r> </TD>
+<TD class=xl119r> </TD>
+<TD class=xl120r> </TD>
+<TD class=xl121r> </TD>
+<TD class=xl122r> </TD>
+</TR>
+<TR>
+<TD class=xl109_0>Aguascalientes</TD>
+<TD X:NUM class=xl102D20_4_0>0.5074</TD>
+<TD X:NUM class=xl104D20_4_0>0.4792</TD>
+<TD X:NUM class=xl106D20_4_0>0.4863</TD>
+<TD X:NUM class=xl108D20_4_0>0.4161</TD>
+<TD X:NUM class=xl112D20_4_0>0.4321</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Baja California</TD>
+<TD X:NUM class=xl102D20_4_1>0.5058</TD>
+<TD X:NUM class=xl104D20_4_1>0.4645</TD>
+<TD X:NUM class=xl106D20_4_1>0.4336</TD>
+<TD X:NUM class=xl108D20_4_1>0.4304</TD>
+<TD X:NUM class=xl112D20_4_1>0.4019</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Baja California Sur</TD>
+<TD X:NUM class=xl102D20_4_0>0.4853</TD>
+<TD X:NUM class=xl104D20_4_0>0.4928</TD>
+<TD X:NUM class=xl106D20_4_0>0.4543</TD>
+<TD X:NUM class=xl108D20_4_0>0.4391</TD>
+<TD X:NUM class=xl112D20_4_0>0.4322</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Campeche</TD>
+<TD X:NUM class=xl102D20_4_1>0.5139</TD>
+<TD X:NUM class=xl104D20_4_1>0.5330</TD>
+<TD X:NUM class=xl106D20_4_1>0.4999</TD>
+<TD X:NUM class=xl108D20_4_1>0.4672</TD>
+<TD X:NUM class=xl112D20_4_1>0.4719</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Coahuila</TD>
+<TD X:NUM class=xl102D20_4_0>0.4761</TD>
+<TD X:NUM class=xl104D20_4_0>0.4636</TD>
+<TD X:NUM class=xl106D20_4_0>0.5029</TD>
+<TD X:NUM class=xl108D20_4_0>0.4174</TD>
+<TD X:NUM class=xl112D20_4_0>0.4139</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Colima</TD>
+<TD X:NUM class=xl102D20_4_1>0.4200</TD>
+<TD X:NUM class=xl104D20_4_1>0.4451</TD>
+<TD X:NUM class=xl106D20_4_1>0.4569</TD>
+<TD X:NUM class=xl108D20_4_1>0.4232</TD>
+<TD X:NUM class=xl112D20_4_1>0.4230</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Chiapas</TD>
+<TD X:NUM class=xl102D20_4_0>0.5409</TD>
+<TD X:NUM class=xl104D20_4_0>0.5347</TD>
+<TD X:NUM class=xl106D20_4_0>0.5172</TD>
+<TD X:NUM class=xl108D20_4_0>0.5075</TD>
+<TD X:NUM class=xl112D20_4_0>0.4873</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Chihuahua</TD>
+<TD X:NUM class=xl102D20_4_1>0.4729</TD>
+<TD X:NUM class=xl104D20_4_1>0.5003</TD>
+<TD X:NUM class=xl106D20_4_1>0.4581</TD>
+<TD X:NUM class=xl108D20_4_1>0.4726</TD>
+<TD X:NUM class=xl112D20_4_1>0.4435</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Ciudad de M&#x00E9;xico</TD>
+<TD X:NUM class=xl102D20_4_0>0.5172</TD>
+<TD X:NUM class=xl104D20_4_0>0.4574</TD>
+<TD X:NUM class=xl106D20_4_0>0.5073</TD>
+<TD X:NUM class=xl108D20_4_0>0.5066</TD>
+<TD X:NUM class=xl112D20_4_0>0.5320</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Durango</TD>
+<TD X:NUM class=xl102D20_4_1>0.4699</TD>
+<TD X:NUM class=xl104D20_4_1>0.4990</TD>
+<TD X:NUM class=xl106D20_4_1>0.4456</TD>
+<TD X:NUM class=xl108D20_4_1>0.4154</TD>
+<TD X:NUM class=xl112D20_4_1>0.4186</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Guanajuato</TD>
+<TD X:NUM class=xl102D20_4_0>0.4331</TD>
+<TD X:NUM class=xl104D20_4_0>0.4633</TD>
+<TD X:NUM class=xl106D20_4_0>0.4490</TD>
+<TD X:NUM class=xl108D20_4_0>0.5762</TD>
+<TD X:NUM class=xl112D20_4_0>0.4155</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Guerrero</TD>
+<TD X:NUM class=xl102D20_4_1>0.5157</TD>
+<TD X:NUM class=xl104D20_4_1>0.5330</TD>
+<TD X:NUM class=xl106D20_4_1>0.4889</TD>
+<TD X:NUM class=xl108D20_4_1>0.4710</TD>
+<TD X:NUM class=xl112D20_4_1>0.4823</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Hidalgo</TD>
+<TD X:NUM class=xl102D20_4_0>0.4652</TD>
+<TD X:NUM class=xl104D20_4_0>0.4803</TD>
+<TD X:NUM class=xl106D20_4_0>0.5041</TD>
+<TD X:NUM class=xl108D20_4_0>0.4301</TD>
+<TD X:NUM class=xl112D20_4_0>0.4233</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Jalisco</TD>
+<TD X:NUM class=xl102D20_4_1>0.4611</TD>
+<TD X:NUM class=xl104D20_4_1>0.4728</TD>
+<TD X:NUM class=xl106D20_4_1>0.4679</TD>
+<TD X:NUM class=xl108D20_4_1>0.4216</TD>
+<TD X:NUM class=xl112D20_4_1>0.4296</TD>
+</TR>
+<TR>
+<TD class=xl109_0>M&#x00E9;xico</TD>
+<TD X:NUM class=xl102D20_4_0>0.4679</TD>
+<TD X:NUM class=xl104D20_4_0>0.4703</TD>
+<TD X:NUM class=xl106D20_4_0>0.4610</TD>
+<TD X:NUM class=xl108D20_4_0>0.4142</TD>
+<TD X:NUM class=xl112D20_4_0>0.4014</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Michoac&#x00E1;n</TD>
+<TD X:NUM class=xl102D20_4_1>0.4889</TD>
+<TD X:NUM class=xl104D20_4_1>0.4716</TD>
+<TD X:NUM class=xl106D20_4_1>0.4518</TD>
+<TD X:NUM class=xl108D20_4_1>0.4236</TD>
+<TD X:NUM class=xl112D20_4_1>0.4238</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Morelos</TD>
+<TD X:NUM class=xl102D20_4_0>0.4199</TD>
+<TD X:NUM class=xl104D20_4_0>0.4333</TD>
+<TD X:NUM class=xl106D20_4_0>0.4669</TD>
+<TD X:NUM class=xl108D20_4_0>0.4371</TD>
+<TD X:NUM class=xl112D20_4_0>0.4287</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Nayarit</TD>
+<TD X:NUM class=xl102D20_4_1>0.4876</TD>
+<TD X:NUM class=xl104D20_4_1>0.4985</TD>
+<TD X:NUM class=xl106D20_4_1>0.4713</TD>
+<TD X:NUM class=xl108D20_4_1>0.4715</TD>
+<TD X:NUM class=xl112D20_4_1>0.4375</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Nuevo Le&#x00F3;n</TD>
+<TD X:NUM class=xl102D20_4_0>0.4975</TD>
+<TD X:NUM class=xl104D20_4_0>0.4846</TD>
+<TD X:NUM class=xl106D20_4_0>0.4527</TD>
+<TD X:NUM class=xl108D20_4_0>0.5778</TD>
+<TD X:NUM class=xl112D20_4_0>0.4347</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Oaxaca</TD>
+<TD X:NUM class=xl102D20_4_1>0.5087</TD>
+<TD X:NUM class=xl104D20_4_1>0.5110</TD>
+<TD X:NUM class=xl106D20_4_1>0.5125</TD>
+<TD X:NUM class=xl108D20_4_1>0.4932</TD>
+<TD X:NUM class=xl112D20_4_1>0.4962</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Puebla</TD>
+<TD X:NUM class=xl102D20_4_0>0.4813</TD>
+<TD X:NUM class=xl104D20_4_0>0.4852</TD>
+<TD X:NUM class=xl106D20_4_0>0.5720</TD>
+<TD X:NUM class=xl108D20_4_0>0.4389</TD>
+<TD X:NUM class=xl112D20_4_0>0.4069</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Quer&#x00E9;taro</TD>
+<TD X:NUM class=xl102D20_4_1>0.4874</TD>
+<TD X:NUM class=xl104D20_4_1>0.5031</TD>
+<TD X:NUM class=xl106D20_4_1>0.4881</TD>
+<TD X:NUM class=xl108D20_4_1>0.4799</TD>
+<TD X:NUM class=xl112D20_4_1>0.4366</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Quintana Roo</TD>
+<TD X:NUM class=xl102D20_4_0>0.4769</TD>
+<TD X:NUM class=xl104D20_4_0>0.4770</TD>
+<TD X:NUM class=xl106D20_4_0>0.4936</TD>
+<TD X:NUM class=xl108D20_4_0>0.4351</TD>
+<TD X:NUM class=xl112D20_4_0>0.4143</TD>
+</TR>
+<TR>
+<TD class=xl109_1>San Luis Potos&#x00ED;</TD>
+<TD X:NUM class=xl102D20_4_1>0.5071</TD>
+<TD X:NUM class=xl104D20_4_1>0.4921</TD>
+<TD X:NUM class=xl106D20_4_1>0.4766</TD>
+<TD X:NUM class=xl108D20_4_1>0.4497</TD>
+<TD X:NUM class=xl112D20_4_1>0.4639</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Sinaloa</TD>
+<TD X:NUM class=xl102D20_4_0>0.4660</TD>
+<TD X:NUM class=xl104D20_4_0>0.4664</TD>
+<TD X:NUM class=xl106D20_4_0>0.4859</TD>
+<TD X:NUM class=xl108D20_4_0>0.4278</TD>
+<TD X:NUM class=xl112D20_4_0>0.4461</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Sonora</TD>
+<TD X:NUM class=xl102D20_4_1>0.4787</TD>
+<TD X:NUM class=xl104D20_4_1>0.4770</TD>
+<TD X:NUM class=xl106D20_4_1>0.4758</TD>
+<TD X:NUM class=xl108D20_4_1>0.4982</TD>
+<TD X:NUM class=xl112D20_4_1>0.4392</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Tabasco</TD>
+<TD X:NUM class=xl102D20_4_0>0.4779</TD>
+<TD X:NUM class=xl104D20_4_0>0.5157</TD>
+<TD X:NUM class=xl106D20_4_0>0.4561</TD>
+<TD X:NUM class=xl108D20_4_0>0.4588</TD>
+<TD X:NUM class=xl112D20_4_0>0.4472</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Tamaulipas</TD>
+<TD X:NUM class=xl102D20_4_1>0.4488</TD>
+<TD X:NUM class=xl104D20_4_1>0.4655</TD>
+<TD X:NUM class=xl106D20_4_1>0.4779</TD>
+<TD X:NUM class=xl108D20_4_1>0.4743</TD>
+<TD X:NUM class=xl112D20_4_1>0.4719</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Tlaxcala</TD>
+<TD X:NUM class=xl102D20_4_0>0.4250</TD>
+<TD X:NUM class=xl104D20_4_0>0.4200</TD>
+<TD X:NUM class=xl106D20_4_0>0.4112</TD>
+<TD X:NUM class=xl108D20_4_0>0.3785</TD>
+<TD X:NUM class=xl112D20_4_0>0.3732</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Veracruz</TD>
+<TD X:NUM class=xl102D20_4_1>0.5329</TD>
+<TD X:NUM class=xl104D20_4_1>0.4930</TD>
+<TD X:NUM class=xl106D20_4_1>0.4899</TD>
+<TD X:NUM class=xl108D20_4_1>0.4889</TD>
+<TD X:NUM class=xl112D20_4_1>0.4533</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Yucat&#x00E1;n</TD>
+<TD X:NUM class=xl102D20_4_0>0.4623</TD>
+<TD X:NUM class=xl104D20_4_0>0.4608</TD>
+<TD X:NUM class=xl106D20_4_0>0.5108</TD>
+<TD X:NUM class=xl108D20_4_0>0.4516</TD>
+<TD X:NUM class=xl112D20_4_0>0.4560</TD>
+</TR>
+<TR>
+<TD class=xl109_1>Zacatecas</TD>
+<TD X:NUM class=xl102D20_4_1>0.5212</TD>
+<TD X:NUM class=xl104D20_4_1>0.5263</TD>
+<TD X:NUM class=xl106D20_4_1>0.5067</TD>
+<TD X:NUM class=xl108D20_4_1>0.4913</TD>
+<TD X:NUM class=xl112D20_4_1>0.4190</TD>
+</TR>
+<TR>
+<TD class=xl109_0>Nacional</TD>
+<TD X:NUM class=xl102D20_4_0>0.5089</TD>
+<TD X:NUM class=xl104D20_4_0>0.4977</TD>
+<TD X:NUM class=xl106D20_4_0>0.5033</TD>
+<TD X:NUM class=xl108D20_4_0>0.4984</TD>
+<TD X:NUM class=xl112D20_4_0>0.4688</TD>
+</TR>
+</TABLE>
+  
+</BODY>
+  
+</HTML>
+
+--====Boundary====
+Content-Location: file:///C:/IBIT0002.xht
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="windows-1252"
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+  
+<HEAD>
+<style>
+<!--table
+        {mso-displayed-decimal-separator:"\.";
+        mso-displayed-thousand-separator:"\,";}
+@page
+        {margin:1.0in .75in 1.0in .75in;
+        mso-header-margin:.5in;
+        mso-footer-margin:.5in;}
+tr
+        {mso-height-source:auto;}
+col
+        {mso-width-source:auto;}
+br
+        {mso-data-placement:same-cell;}
+.style21
+        {color:blue;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        mso-style-name:Hyperlink;
+        mso-style-id:8;}
+a:link
+        {color:blue;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;}
+a:visited
+        {color:purple;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;}
+.style0
+        {mso-number-format:General;
+        text-align:general;
+        vertical-align:bottom;
+        white-space:nowrap;
+        mso-rotate:0;
+        mso-background-source:auto;
+        mso-pattern:auto;
+        color:windowtext;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        border:none;
+        mso-protection:locked visible;
+        mso-style-name:Normal;
+        mso-style-id:0;}
+td
+        {mso-style-parent:style0;
+        padding:1px;
+        mso-ignore:padding;
+        color:windowtext;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        mso-number-format:General;
+        text-align:general;
+        vertical-align:bottom;
+        border:none;
+        mso-background-source:auto;
+        mso-pattern:auto;
+        mso-protection:locked visible;
+        white-space:nowrap;
+        mso-rotate:0;}
+.xl100
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl100r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl102_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl102r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl102_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl102r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl103r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:left;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl104
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl104r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl105
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl105r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl106
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl106r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl107
+        {mso-style-parent:style0;
+        color:#808080;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl108
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl108r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl109
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:nowrap;
+        mso-font-charset:0;}
+.xl109r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:nowrap;
+        mso-font-charset:0;}
+-->
+</style>
+<xml>
+ <x:WorksheetOptions>
+  <x:ProtectObjects>False</x:ProtectObjects>
+ </x:WorksheetOptions>
+</xml>
+</HEAD>
+  
+<BODY>
+  
+<TABLE X:STR BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<col style='mso-width-source:userset;width:283pt'>
+<col style='mso-width-source:userset;width:652pt'>
+<TR>
+<TD COLSPAN=2 class=xl107>
+<FONT class=xl107>NOTAS</FONT>
+</TD>
+</TR>
+<TR>
+<TD class=xl105>Variable</TD>
+<TD class=xl106>Notas</TD>
+</TR>
+<TR>
+<TD class=xl102_0>Coeficiente de Gini</TD>
+<TD class=xl103_0>El coeficiente de Gini es una medida de concentraci&#x00F3;n del ingreso: toma valores entre cero y uno; cuando el valor se acerca a uno, indica  que hay mayor concentraci&#x00F3;n del ingreso. &lt;BR&gt;Los datos son estimaciones del Consejo Nacional de Evaluaci&#x00F3;n de la Pol&#x00ED;tica Social (CONEVAL). &lt;BR&gt;2010, 2012, 2014: Con base en el M&#x00F3;dulo de Condiciones Socioecon&#x00F3;micas de la Encuesta Nacional de Ingresos y Gastos de los Hogares (MCS-ENIGH) 2010, 2012, 2014.&lt;BR&gt;2016, 2018: Con base en el Modelo Estad&#x00ED;stico para la continuidad 2016, 2018 del MCS-ENIGH. &lt;br&gt; La informaci&#x00F3;n que se presenta es la m&#x00E1;s reciente disponible (revisi&#x00F3;n Octubre, 2020). &lt;br&gt;Con motivo de la reforma de la Constituci&#x00F3;n Pol&#x00ED;tica de los Estados Unidos Mexicanos publicada el 29 de enero de 2016 en el Diario Oficial de la Federaci&#x00F3;n, el Distrito Federal cambi&#x00F3; su denominaci&#x00F3;n a Ciudad de M&#x00E9;xico. La informaci&#x00F3;n correspondiente a dicha entidad se presenta con este nuevo nombre.<BR></TD>
+</TR>
+</TABLE>
+  
+</BODY>
+  
+</HTML>
+
+--====Boundary====
+Content-Location: file:///C:/IBIT0003.xht
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="windows-1252"
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+  
+<HEAD>
+<style>
+<!--table
+        {mso-displayed-decimal-separator:"\.";
+        mso-displayed-thousand-separator:"\,";}
+@page
+        {margin:1.0in .75in 1.0in .75in;
+        mso-header-margin:.5in;
+        mso-footer-margin:.5in;}
+tr
+        {mso-height-source:auto;}
+col
+        {mso-width-source:auto;}
+br
+        {mso-data-placement:same-cell;}
+.style21
+        {color:blue;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        mso-style-name:Hyperlink;
+        mso-style-id:8;}
+a:link
+        {color:blue;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;}
+a:visited
+        {color:purple;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:underline;
+        text-underline-style:single;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;}
+.style0
+        {mso-number-format:General;
+        text-align:general;
+        vertical-align:bottom;
+        white-space:nowrap;
+        mso-rotate:0;
+        mso-background-source:auto;
+        mso-pattern:auto;
+        color:windowtext;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        border:none;
+        mso-protection:locked visible;
+        mso-style-name:Normal;
+        mso-style-id:0;}
+td
+        {mso-style-parent:style0;
+        padding:1px;
+        mso-ignore:padding;
+        color:windowtext;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        mso-number-format:General;
+        text-align:general;
+        vertical-align:bottom;
+        border:none;
+        mso-background-source:auto;
+        mso-pattern:auto;
+        mso-protection:locked visible;
+        white-space:nowrap;
+        mso-rotate:0;}
+.xl100
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        white-space:normal;
+        mso-font-charset:0;}
+.xl100r
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101r_0
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#FFFFFF;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl101r_1
+        {mso-style-parent:style0;
+        color:#000000;
+        font-size:9.0pt;
+        font-family:"OPEN SANS";
+        background:#DEDEDE;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl103
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl103r
+        {mso-style-parent:style0;
+        color:#FFFFFF;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        background:#808080;
+        mso-pattern:auto none;
+        text-align:right;
+        white-space:normal;
+        mso-font-charset:0;}
+.xl105
+        {mso-style-parent:style0;
+        color:#808080;
+        font-size:9.0pt;
+        font-weight:700;
+        font-family:"OPEN SANS";
+        white-space:normal;
+        mso-font-charset:0;}
+-->
+</style>
+<xml>
+ <x:WorksheetOptions>
+  <x:ProtectObjects>False</x:ProtectObjects>
+ </x:WorksheetOptions>
+</xml>
+</HEAD>
+  
+<BODY>
+  
+<TABLE X:STR BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<col>
+<TR>
+<TD class=xl105>
+<FONT class=xl105>FUENTES</FONT>
+</TD>
+</TR>
+<TR>
+<TD class=xl101_0>Consejo Nacional de Evaluaci&#x00F3;n de la Pol&#x00ED;tica Social (CONEVAL), Medici&#x00F3;n de la pobreza, consultado en https://www.coneval.org.mx/Medicion/MP/Paginas/AE_pobreza_2018.aspx, 11-11-2019.</TD>
+</TR>
+</TABLE>
+  
+</BODY>
+  
+</HTML>
+
+--====Boundary====--
