@@ -1,0 +1,252 @@
+﻿ID_PAIS_DESTINO,DESC_PAIS_DESTINO,ENGLISH
+1,México,Mexico
+2,Afganistán,Afghanistan
+3,Albania,Albania
+4,Alemania,Germany
+5,Andorra,Andorra
+6,Angola,Angola
+7,Anguila,Anguilla
+8,Antigua y Barbuda,Antigua and Barbuda
+9,Antillas Neerlandesas,Netherlands
+10,Arabia Saudita,Saudi Arabia
+11,Argelia,Algeria
+12,Argentina,Argentina
+13,Armenia,Armenia
+14,Aruba,Aruba
+15,Asia,Asia
+16,Australia,Australia
+17,Austria,Austria
+18,Azerbaiján,Azerbaijan
+19,Bahamas,Bahamas
+20,Bahrein,Bahrain
+21,Bangladesh,Bangladesh
+22,Barbados,Barbados
+23,Bélgica,Belgium
+24,Belice,Belize
+25,Benín,Benin
+26,Bermudas,Bermuda
+27,Bielorrusia,Belarus
+28,Bolivia,Bolivia
+29,Bosnia y Herzegovina,Bosnia and Herz.
+30,Botswana,Botswana
+31,Brasil,Brazil
+32,Brunei Darussalam,Brunei
+33,Bulgaria,Bulgaria
+34,Burkina Faso,Burkina Faso
+35,Burundi,Burundi
+36,Bután,Bhutan
+37,Cabo Verde,Cape Verde
+38,Camboya,Cambodia
+39,Camerún,Cameroon
+40,Canadá,Canada
+41,Chad,Chad
+42,Chile,Chile
+43,China,China
+44,Chipre,Cyprus
+45,Ciudad del Vaticano,Vatican
+46,Colombia,Colombia
+47,Corea del Norte,North Korea
+48,Corea del Sur,South Korea
+49,Costa de Marfil,Ivory Coast
+50,Costa Rica,Costa Rica
+51,Croacia,Croatia
+52,Cuba,Cuba
+53,Curazao,Curacao
+54,Dinamarca,Denmark
+55,Djibouti,Djibouti
+56,Dominica,Dominica
+57,Ecuador,Ecuador
+58,Egipto,Egypt
+59,El Salvador,El Salvador
+60,Emiratos Árabes Unidos,United Arab Emirates
+61,Eritrea,Eritrea
+62,Eslovaquia,Slovakia
+63,Eslovenia,Slovenia
+64,España,Spain
+65,Estado de Micronesia,Federated States of Micronesia
+66,Estados Unidos,United States
+67,Estonia,Estonia
+68,Etiopía,Ethiopia
+69,Europa,Europe
+70,Federación Rusa,Russia
+71,Fidji,Fiji
+72,Filipinas,Philippines
+73,Finlandia,Finland
+74,Francia,France
+75,Franja de Gaza,Gaza Strip
+76,Gabón,Gabon
+77,Gambia,Gambia
+78,Georgia,Georgia
+79,Ghana,Ghana
+80,Gibraltar,Gibraltar
+81,Granada,Grenada
+82,Grecia,Greece
+83,Guadalupe y Dependencias,G
+84,Guam,Guam
+85,Guatemala,Guatemala
+86,Guinea,Guinea
+87,Guinea Bissau,Guinea-Bissau
+88,Guinea Ecuatorial,Equatorial Guinea
+89,Guyana,Guyana
+90,Guyana Francesa,French Guyana
+91,Haití,Haiti
+92,Honduras,Honduras
+93,Hong Kong,Hong Kong
+94,Hungría,Hungary
+95,India,India
+96,Indonesia,Indonesia
+97,Irak,Iraq
+98,Irán,Iran
+99,Irlanda,Ireland
+100,Isla Montserrat,NA
+101,Isla Nive,NA
+102,Isla Norfolk,NA
+103,Isla Reunión,Reuni
+104,Islandia,Iceland
+105,Islas Caimán,Cayma
+106,Islas Canal,NA
+107,Islas Cocos,NA
+108,Islas Comoras,NA
+109,Islas Cook,NA
+110,Islas Heard y Mcdonald,NA
+111,Islas Malvinas,Falklan
+112,Islas Marianas,Northern Marian
+113,Islas Marshall,Marshall Islands
+114,Islas Navidad,NA
+115,Islas Pitcairns,NA
+116,Islas Salomón,Solomon Islands
+117,Islas Svalbard y Jan Mayen,NA
+118,Islas Tokelau,NA
+119,Islas Turcas y Caicos,NA
+120,Islas Vírgenes (EU),US Virgin Islands
+121,Islas Vírgenes (Reino Unido),British Virgin Islands
+122,Islas Wallis y Futuna,Wallis and Futuna
+123,Israel,Israel
+124,Italia,Italy
+125,Jamaica,Jamaica
+126,Japón,Japan
+127,Jordania,Jordan
+128,Kazajstán,Kazakhstan
+129,Kenia,Kenya
+130,Kiribati,Kiribati
+131,Kuwait,Kuwait
+132,Kyrgyzstán,Kyrgyzstan
+133,Lesotho,Lesotho
+134,Letonia,Latvia
+135,Líbano,Lebanon
+136,Liberia,Liberia
+137,Libia,Libya
+138,Liechtenstein,Liechtenstein
+139,Lituania,Lithuania
+140,Luxemburgo,Luxembourg
+141,Macao,Macao
+142,Macedonia,Macedonia 
+143,Madagascar,Madagascar
+144,Malasia,Malaysia
+145,Malawi,Malawi
+146,Maldivas,Maldives
+147,Malí,Mali
+148,Malta,Malta
+149,Marruecos,Morocco
+150,Martinica,Martinica
+151,Mauricio,Mauritius
+152,Mauritania,Mauritania
+153,Moldavia,Moldova
+154,Mónaco,Monaco
+155,Mongolia,Mongolia
+156,Montenegro,Montenegro
+157,Mozambique,Mozambique
+158,Myanmar,Myanmar
+159,Namibia,Namibia
+160,Nauru,Nauru
+161,Nepal,Nepal
+162,Nicaragua,Nicaragua
+163,Níger,Niger
+164,Nigeria,Nigeria
+165,Noruega,Norway
+166,Nueva Caledonia,New Caledonia
+167,Nueva Zelanda,New Zealand
+168,Omán,Oman
+169,Países Bajos,Netherlands
+170,Pakistán,Pakistan
+171,Palau,Palau
+172,Panamá,Panama
+173,Papúa Nueva Guinea,Papua New Guinea
+174,Paraguay,Paraguay
+175,Perú,Peru
+176,Polinesia Francesa,French 
+177,Polonia,Poland
+178,Portugal,Portugal
+179,Puerto Rico,Puerto Rico
+180,Qatar,Qatar
+181,Reino Unido,United Kingdom
+182,República Árabe Siria,Syria
+183,República Centroafricana,Central African
+184,República Checa,Czechia
+185,República de Laos,Laos
+186,República del Congo,Republic of the Congo
+187,República Dominicana,Dominican Republic
+188,Ruanda,Rwanda
+189,Rumania,Romania
+190,Sahara Occidental,Western Sahara
+191,Samoa Occidental,Samoa
+192,San Cristóbal y Nieves,Saint Kitts and Nevis
+193,San Marino,San Marino
+194,San Pedro y Miquelón,Saint Pierre and Miquelon
+195,San Vicente y las Granadinas,Saint Vincent and the Grenadines
+196,Santa Elena,Saint Elena
+197,Santa Lucía,Saint Lucia
+198,Santo Tome y Príncipe,Sao Tome and Principe
+199,Senegal,Senegal
+200,Serbia,Serbia
+201,Serbia y Montenegro,Serbia and Montenegro
+202,Seychelles,Seychelles
+203,Sierra Leona,Sierra Leone
+204,Singapur,Singapore
+205,Somalia,Somalia
+206,Sri Lanka,Sri Lanka
+207,Sudáfrica,South Africa
+208,Sudán,Sudan
+209,Suecia,Sweden
+210,Suiza,Switzerland
+211,Surinam,Suriname
+212,Swazilandia,Swaziland
+213,Tadjikistán,Tajikistan
+214,Tailandia,Thailand
+215,Taiwán,Taiwan
+216,Tanzania,Tanzania
+217,Territorios del Reino Unido del Océano Índico,NA
+218,Territorios Franceses Australes y Antárticos,NA
+219,Territorios Franceses de Ultramar,NA
+220,Territorios Franceses del Sur,NA
+221,Timor Oriental,East Timor
+222,Togo,Togo
+223,Tonga,Tonga
+224,Trinidad y Tobago,Trinidad and Tobago
+225,Túnez,Tunisia
+226,Turkmenistán,Turkmenistan
+227,Turquía,Turkey
+228,Tuvalu,Tuvalu
+229,Ucrania,Ukraine
+230,Uganda,Uganda
+231,Uruguay,Uruguay
+232,Uzbekistán,Uzbekistan
+233,Vanuatu,Vanuatu
+234,Venezuela,Venezuela
+235,Vietnam,Vietnam
+236,Yemen,Yemen
+237,Zaire,Zaire
+238,Zambia,Zambia
+239,Zimbabwe,Zimbabwe
+240,Zona Canal de Panamá,NA
+241,Zona Neutral Irak-Arabia Saudita,NA
+990,No Especificado (América del Norte),NA
+991,No Especificado (América Central),NA
+992,No Especificado (América del Sur),NA
+993,No Especificado (Antillas),NA
+994,No Especificado (Asia),NA
+995,No Especificado (Unión Europea),NA
+996,No Especificado (Resto de Europa),NA
+997,No Especificado (África),NA
+998,No Especificado (Oceanía),NA
+999,No Especificado,NA
