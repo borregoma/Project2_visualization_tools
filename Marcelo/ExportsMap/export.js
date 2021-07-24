@@ -31,16 +31,33 @@ function createObjects(input) {
                    d > 10000   ? '#c7e9c0' :
                    d > 0       ? '#e5f5e0' :
                                  '#ECECED' ;
-            } else {
+            } else if (input === "sales"){
                 return d > 500000 ? '#08306b' :
                 d > 200000  ? '#08519c' :
                 d > 100000  ? '#2171b5' :
-                d > 50000  ? '#4292c6' :
+                d > 50000   ? '#4292c6' :
                 d > 20000   ? '#6baed6' :
                 d > 10000   ? '#9ecae1' :
-                d > 5000   ? '#c6dbef' :
+                d > 5000    ? '#c6dbef' :
                 d > 0       ? '#deebf7' :
                               '#ECECED' ;
+            } else {
+                return d > 500000 ? '#00441b' :
+                   d > 200000  ? '#006d2c' :
+                   d > 100000  ? '#238b45' :
+                   d > 50000   ? '#41ab5d' :
+                   d > 20000   ? '#74c476' :
+                   d > 10000   ? '#a1d99b' :
+                   d > 5000    ? '#c7e9c0' :
+                   d > 0       ? '#e5f5e0' :
+                   d > -5000   ? '':
+                   d > -10000  ? '':
+                   d > -20000  ? '':
+                   d > -50000  ? '':
+                   d > -100000 ? '':
+                   d > -200000 ? '':
+                   d > -500000 ? '':
+                                 '#ECECED' ;
             }
         };
     
@@ -139,8 +156,12 @@ function createObjects(input) {
                 this._div.innerHTML = '<h4>Vehicle Exports by Destination Country</h4>' +  (props ?
                     '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
                     : 'Hover over a state');
-            } else {
+            } else if(input === "sales"){
                 this._div.innerHTML = '<h4>Vehicle Sales by Origin Country</h4>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                    : 'Hover over a state');
+            } else {
+                this._div.innerHTML = '<h4>Exports-Sales Balance by Country</h4>' +  (props ?
                     '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
                     : 'Hover over a state');
             }
@@ -156,9 +177,12 @@ function createObjects(input) {
             if(input === "exports"){
                 var dataRange = [0, 10000, 20000, 50000, 100000, 200000, 500000, 1000000],
                     dataLabels = ["<10K", "10-20K", "20-50K", "50-100K", "100-200K", "200-500K", "500K-1M", "1M"];
-            } else {
+            } else if(input === "sales") {
                 var dataRange = [0, 5000, 10000, 20000, 50000, 100000, 200000, 500000],
                     dataLabels = ["<5K", "5-10K", "10-20K", "20-50K", "50-100K", "100-200K", "200-500K", "500K"];
+            } else {
+                var dataRange = [500000, 200000, 100000, 50000, 20000, 10000, 5000, 1, -1, -5000, -10000, -20000, -50000, -100000, -200000, -500000],
+                    dataLabels = ["500K+", "200-500K", "100-200K", "50-100K", "20-50K", "10-20K", "5-10K", "0-5K", "0--5K", "5--10K", "10--20K", "20--50K", "50--100K", "100--200K", "200--500K", "-500K"];
             }
             for (var i = 0; i < dataRange.length; i++) {
                 div.innerHTML +=
