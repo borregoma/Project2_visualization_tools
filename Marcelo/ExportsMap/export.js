@@ -240,7 +240,7 @@ function createObjects(input) {
                     dataLabels = ["<1M", "1-20M", "20-50M", "50-100M", "100M-200M", "200-500M", "500M-1B", "1B"];
             } else {
                 var dataRange = [1000000000, 500000000, 200000000, 100000000, 50000000, 20000000, 1000000, 1, -1, -1000000, -20000000, -50000000, -100000000, -200000000, -500000000, -1000000000],
-                    dataLabels = ["500K+", "200-500K", "100-200K", "50-100K", "20-50K", "10-20K", "5-10K", "0-5K", "0--5K", "5--10K", "10--20K", "20--50K", "50--100K", "100--200K", "200--500K", "-500K"];
+                    dataLabels = ["1B+", "500M-1B", "200-500M", "100-200M", "50-100M", "20-50M", "10-20M", "0-10M", "-0-10M", "-10--20M", "-20-50M", "-50-100M", "-100-200M", "-200--500M", "-500M-1B", "-1B"];
             }
             for (var i = 0; i < dataRange.length; i++) {
                 div.innerHTML +=
@@ -363,6 +363,48 @@ function createObjects(input) {
         })
 
         // JSC
+        d3.select("#jsc-id").html(" ");
+        var grid, 
+            palette = [ 
+                '#81d4fa', 
+                '#80cbc4', 
+                '#c5e1a5', 
+                '#ffe082', 
+                '#ffab91', 
+                '#f48fb1', 
+                '#9fa8da'
+            ]; 
+        if(input === "exports"){
+            var maxValues = [ 
+                650000, 
+                550000, 
+                850000, 
+                200000, 
+                550000, 
+                200000, 
+                550000 
+                ];
+        } else if(input === "sales"){
+            var maxValues = [ 
+                140000, 
+                180000, 
+                320000, 
+                900000, 
+                420000, 
+                120000, 
+                220000 
+                ];
+        } else {
+            var maxValues = [ 
+                600000, 
+                450000,
+                650000, 
+                120000, 
+                260000, 
+                90000, 
+                400000
+                ];
+        }
         var grid, 
         palette = [ 
             '#81d4fa', 
@@ -382,7 +424,8 @@ function createObjects(input) {
         500000, 
         500000 
         ];
-        
+
+
         JSC.fetch('brand'+input+'.csv') 
         .then(function(response) { 
         return response.text(); 

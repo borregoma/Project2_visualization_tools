@@ -7,7 +7,7 @@ d3.csv("PIB_Autos_Marcelo.csv").then((data) => {
 
     data.forEach(row =>{
         years.push(row["Anio"]);
-        autoPIB.push(row["Automotriz"]);
+        autoPIB.push(row["Automotriz"]*1000000);
         totalPIB.push(row["PIB Total"]);
         percents.push(row["Porcentaje"]);
     })
@@ -17,14 +17,14 @@ d3.csv("PIB_Autos_Marcelo.csv").then((data) => {
     var trace1 = {
         x: years,
         y: autoPIB,
-        name: 'yaxis data',
+        name: 'Auto Industry GDP',
         type: 'bar'
       };
       
       var trace2 = {
         x: years,
         y: percents,
-        name: 'yaxis2 data',
+        name: '% of Total GDP',
         yaxis: 'y2',
         type: 'scatter'
       };
@@ -32,12 +32,12 @@ d3.csv("PIB_Autos_Marcelo.csv").then((data) => {
       var data = [trace1, trace2];
       
       var layout = {
-        title: 'Double Y Axis Example',
-        yaxis: {title: 'yaxis title'},
+        title: 'Auto Industry GDP in Mexico',
+        yaxis: {title: 'USD'},
         yaxis2: {
-          title: 'yaxis2 title',
-          titlefont: {color: 'rgb(148, 103, 189)'},
-          tickfont: {color: 'rgb(148, 103, 189)'},
+          title: '% of Total GDP',
+          titlefont: {color: 'rgb(19, 19, 19)'},
+          tickfont: {color: 'rgb(19, 19, 19)'},
           overlaying: 'y',
           side: 'right'
         }

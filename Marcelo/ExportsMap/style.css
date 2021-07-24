@@ -8,13 +8,22 @@ html {
   height: 100%;
 }
 
-#map-id,
-#plotly-id,
-#jsc-id {
-  height: 30%;
-  width: 50%;
+#map-id {
+  height: 45%;
+  width: 49%;
 }
 
+#plotly-id{
+  height: 50%;
+  width: 50%;
+  color: rgb(19, 19, 19);
+}
+
+#jsc-id {
+  height: 80%;
+  width: 50%;
+  float: right;
+}
 
 .info {
   padding: 6px 8px;
