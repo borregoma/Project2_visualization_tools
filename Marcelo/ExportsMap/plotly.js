@@ -1,12 +1,13 @@
 
+var input = "sales";
 
+d3.json(input+".geojson").then((geoData) => {
 
-d3.json("sales.geojson").then((worldData) => {
-
-    var allMetadata = worldData.features
+    var allMetadata = geoData.features
     var countryDict = {};
     allMetadata.forEach((feature) => {
-        countryDict[feature.properties.country] = feature.properties.sales2020
+        var defaultYear = input+2016
+        countryDict[feature.properties.country] = feature["properties"][defaultYear]
     })
     newDict = sortObjectEntries(countryDict);
     var countriesSliced = newDict.map(d => d[0]).slice(0,10).reverse();
@@ -16,7 +17,7 @@ d3.json("sales.geojson").then((worldData) => {
         x: xdataSliced,
         y: countriesSliced,
         text: countriesSliced,
-        name: "First Try",
+        name: input,
         type: "bar",
         orientation: "h"
         };
@@ -24,11 +25,11 @@ d3.json("sales.geojson").then((worldData) => {
 
     var steps = []
     var frames = []
-    for(var i=2005; i<2022; i++){
+    for(var i=2005; i<2021; i++){
         var eachStep = {
-            label: `sales${i}`,
+            label: `${i}`,
             method: 'animate',
-            args: [[`sales${i}`],{
+            args: [[`${i}`],{
                 mode: 'immediate',
                 frame: {redraw: false, duration: 1000},
                 transition: {duration: 1000}
@@ -39,7 +40,7 @@ d3.json("sales.geojson").then((worldData) => {
         var countryDictFor = {};
         allMetadata.forEach((feature) => {
             var year = i
-            var yearSelected = "sales"+year
+            var yearSelected = input+year
             countryDictFor[feature.properties.country] = feature["properties"][yearSelected];
         })
         newDict = sortObjectEntries(countryDictFor);
@@ -47,7 +48,7 @@ d3.json("sales.geojson").then((worldData) => {
         var xdataSlicedFor = newDict.map(d => d[1]).slice(0,10).reverse();
 
         var eachFrame = {
-            name: `sales${i}`, 
+            name: `${i}`, 
             data: [{
                 x: xdataSlicedFor,
                 y: countriesSlicedFor
@@ -67,9 +68,9 @@ d3.json("sales.geojson").then((worldData) => {
             label: 'Play',
             method: 'animate',
             args: [null, {
-                fromcurrent: true, 
-                frame: {redraw: false, duration: 2000},
-                transition: {duration: 1000}
+                fromcurrent: false, 
+                frame: {redraw: false, duration: 1000},
+                transition: {duration: 500}
             }]
         }]
     }]
@@ -86,18 +87,18 @@ d3.json("sales.geojson").then((worldData) => {
                 size: 20
             }
         },
-        transition: {duration: 1000},
+        transition: {duration: 250},
         steps: steps
     }]
 
     var barLayout = {
-        title: "Top 10 Countries",
+        title: input+" Top 10 Countries",
         sliders: sliders,
         updatemenus: updatemenus
     };
 
     // Plotly.newPlot("map-id", barData, barLayout, [frames]);
-    Plotly.newPlot("map-id", {
+    Plotly.newPlot("plotly-id", {
         data: barData,
         layout: barLayout,
         frames: frames

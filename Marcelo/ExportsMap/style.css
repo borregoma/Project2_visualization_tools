@@ -8,10 +8,12 @@ html {
   height: 100%;
 }
 
-#map-id {
+#map-id,
+#plotly-id {
   height: 40%;
   width: 40%;
 }
+
 
 .info {
   padding: 6px 8px;

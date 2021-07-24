@@ -1,6 +1,7 @@
-function createMap(input) {
+function createObjects(input) {
     d3.json(input+".geojson").then(function(geoData) {
 
+        ///////LEAFLET///////
         d3.select("#map-id").html(" ");
         var container = L.DomUtil.get('map-id');
         if(container != null){
@@ -169,14 +170,129 @@ function createMap(input) {
         };
     
         legend.addTo(myMap);
+
+        ///////PLOTLY///////
+        var allMetadata = geoData.features
+        var countryDict = {};
+        allMetadata.forEach((feature) => {
+            var defaultYear = input+2016
+            countryDict[feature.properties.country] = feature["properties"][defaultYear]
+        })
+        newDict = sortObjectEntries(countryDict);
+        var countriesSliced = newDict.map(d => d[0]).slice(0,10).reverse();
+        var xdataSliced = newDict.map(d => d[1]).slice(0,10).reverse();
+
+        var trace1 = {
+            x: xdataSliced,
+            y: countriesSliced,
+            text: countriesSliced,
+            name: input,
+            type: "bar",
+            orientation: "h",
+            color: "red"
+            };
+        var barData = [trace1];
+
+        var steps = []
+        var frames = []
+        for(var i=2005; i<2021; i++){
+            var eachStep = {
+                label: `${i}`,
+                method: 'animate',
+                args: [[`${i}`],{
+                    mode: 'immediate',
+                    frame: {redraw: false, duration: 1000},
+                    transition: {duration: 1000}
+                }]
+            }
+            steps.push(eachStep)
+
+            var countryDictFor = {};
+            allMetadata.forEach((feature) => {
+                var year = i
+                var yearSelected = input+year
+                countryDictFor[feature.properties.country] = feature["properties"][yearSelected];
+            })
+            newDict = sortObjectEntries(countryDictFor);
+            var countriesSlicedFor = newDict.map(d => d[0]).slice(0,10).reverse();
+            var xdataSlicedFor = newDict.map(d => d[1]).slice(0,10).reverse();
+
+            var eachFrame = {
+                name: `${i}`, 
+                data: [{
+                    x: xdataSlicedFor,
+                    y: countriesSlicedFor
+                }]
+            }
+            frames.push(eachFrame)
+        }
+        var updatemenus = [{
+            type: 'buttons',
+            showactive: false,
+            x: 0.05,
+            y: 0,
+            xanchor: 'right',
+            yanchor: 'top',
+            pad: {t:60, r:20},
+            buttons: [{
+                label: 'Play',
+                method: 'animate',
+                args: [null, {
+                    fromcurrent: true, 
+                    frame: {redraw: false, duration: 1000},
+                    transition: {duration: 500}
+                }]
+            },{
+                label: 'Reset',
+                method: 'animate',
+                args: [null, {
+                    frame: {duration: 0, redraw: false}, 
+                    mode: 'immediate'
+                }]
+            }]
+        }]
+
+        var sliders = [{
+            pad: {t:30},
+            x: 0.05,
+            len: 0.95,
+            currentvalue: {
+                xanchor: 'right',
+                prefix: 'Year: ',
+                font: {
+                    color: '#888',
+                    size: 20
+                }
+            },
+            transition: {duration: 250},
+            steps: steps
+        }]
+
+        var barLayout = {
+            title: "Top 10 Countries",
+            sliders: sliders,
+            updatemenus: updatemenus
+        };
+
+        Plotly.newPlot("plotly-id", {
+            data: barData,
+            layout: barLayout,
+            frames: frames
+        })
     })
 }
 
-createMap("exports");
+function sortObjectEntries(obj){
+    return  Object.entries(obj).sort((a,b)=>b[1]-a[1]);
+}
+
+
+createObjects("exports");
 
 d3.selectAll("#dataButton").on("click", function(){
     d3.selectAll("#dataButton").attr("class", "btn btn-secondary");
     d3.select(this).attr("class", "btn btn-primary");
     var input = d3.select(this).attr("value");
-    createMap(input)
+    createObjects(input)
 })
+
