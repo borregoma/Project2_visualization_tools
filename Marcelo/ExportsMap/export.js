@@ -41,7 +41,7 @@ function createObjects(input) {
                 d > 5000    ? '#c6dbef' :
                 d > 0       ? '#deebf7' :
                               '#ECECED' ;
-            } else {
+            } else if (input === "balance"){
                 return d > 500000 ? '#00441b' :
                    d > 200000  ? '#006d2c' :
                    d > 100000  ? '#238b45' :
@@ -50,20 +50,57 @@ function createObjects(input) {
                    d > 10000   ? '#a1d99b' :
                    d > 5000    ? '#c7e9c0' :
                    d > 0       ? '#e5f5e0' :
-                   d > -5000   ? '':
-                   d > -10000  ? '':
-                   d > -20000  ? '':
-                   d > -50000  ? '':
-                   d > -100000 ? '':
-                   d > -200000 ? '':
-                   d > -500000 ? '':
+                   d > -5000   ? '#fee0d2':
+                   d > -10000  ? '#fcbba1':
+                   d > -20000  ? '#fc9272':
+                   d > -50000  ? '#fb6a4a':
+                   d > -100000 ? '#ef3b2c':
+                   d > -200000 ? '#cb181d':
+                   d > -500000 ? '#99000d':
+                                 '#ECECED';
+            } else if(input === "exportsM"){
+                return d > 1000000000 ? '#00441b' :
+                   d > 500000000  ? '#006d2c' :
+                   d > 200000000  ? '#238b45' :
+                   d > 100000000  ? '#41ab5d' :
+                   d > 50000000   ? '#74c476' :
+                   d > 20000000   ? '#a1d99b' :
+                   d > 1000000   ? '#c7e9c0' :
+                   d > 0       ? '#e5f5e0' :
                                  '#ECECED' ;
-            }
+            } else if (input === "salesM"){
+                return d > 1000000000 ? '#08306b' :
+                d > 500000000  ? '#08519c' :
+                d > 200000000  ? '#2171b5' :
+                d > 100000000   ? '#4292c6' :
+                d > 50000000   ? '#6baed6' :
+                d > 20000000   ? '#9ecae1' :
+                d > 1000000    ? '#c6dbef' :
+                d > 0       ? '#deebf7' :
+                              '#ECECED' ;
+            } else {
+                return d > 1000000000 ? '#00441b' :
+                   d > 500000000  ? '#006d2c' :
+                   d > 200000000  ? '#238b45' :
+                   d > 100000000   ? '#41ab5d' :
+                   d > 50000000   ? '#74c476' :
+                   d > 20000000   ? '#a1d99b' :
+                   d > 1000000    ? '#c7e9c0' :
+                   d > 0       ? '#e5f5e0' :
+                   d > -1000000   ? '#fee0d2':
+                   d > -20000000  ? '#fcbba1':
+                   d > -50000000  ? '#fc9272':
+                   d > -100000000  ? '#fb6a4a':
+                   d > -200000000 ? '#ef3b2c':
+                   d > -500000000 ? '#cb181d':
+                   d > -1000000000 ? '#99000d':
+                                 '#ECECED';
+            }fee0d2
         };
     
         layerGrouped = [lightmap];
         baseMapsGrouped = {};
-        for(var i=2005; i<2021; i++){
+        for(var i=2006; i<2021; i++){
             
             function styleSales(feature) {
                 var year = i
@@ -160,8 +197,20 @@ function createObjects(input) {
                 this._div.innerHTML = '<h4>Vehicle Sales by Origin Country</h4>' +  (props ?
                     '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
                     : 'Hover over a state');
-            } else {
+            } else if(input === "balance"){
                 this._div.innerHTML = '<h4>Exports-Sales Balance by Country</h4>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                    : 'Hover over a state');
+            } else if(input === "exportsM"){
+                this._div.innerHTML = '<h4>Trade Value Exports by Destination Country</h4>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                    : 'Hover over a state');
+            } else if(input === "salesM"){
+                this._div.innerHTML = '<h4>Trade Value Imports by Origin Country</h4>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                    : 'Hover over a state');
+            } else {
+                this._div.innerHTML = '<h4>Trade Value Balance by Country</h4>' +  (props ?
                     '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
                     : 'Hover over a state');
             }
@@ -180,8 +229,17 @@ function createObjects(input) {
             } else if(input === "sales") {
                 var dataRange = [0, 5000, 10000, 20000, 50000, 100000, 200000, 500000],
                     dataLabels = ["<5K", "5-10K", "10-20K", "20-50K", "50-100K", "100-200K", "200-500K", "500K"];
-            } else {
+            } else if(input === "balance"){
                 var dataRange = [500000, 200000, 100000, 50000, 20000, 10000, 5000, 1, -1, -5000, -10000, -20000, -50000, -100000, -200000, -500000],
+                    dataLabels = ["500K+", "200-500K", "100-200K", "50-100K", "20-50K", "10-20K", "5-10K", "0-5K", "0--5K", "5--10K", "10--20K", "20--50K", "50--100K", "100--200K", "200--500K", "-500K"];
+            } else if(input === "exportsM"){
+                var dataRange = [0, 1000000, 20000000, 50000000, 100000000, 200000000, 500000000, 1000000000],
+                    dataLabels = ["<1M", "1-20M", "20-50M", "50-100M", "100M-200M", "200-500M", "500M-1B", "1B"];
+            } else if(input === "salesM"){
+                var dataRange = [0, 1000000, 20000000, 50000000, 100000000, 200000000, 500000000, 1000000000],
+                    dataLabels = ["<1M", "1-20M", "20-50M", "50-100M", "100M-200M", "200-500M", "500M-1B", "1B"];
+            } else {
+                var dataRange = [1000000000, 500000000, 200000000, 100000000, 50000000, 20000000, 1000000, 1, -1, -1000000, -20000000, -50000000, -100000000, -200000000, -500000000, -1000000000],
                     dataLabels = ["500K+", "200-500K", "100-200K", "50-100K", "20-50K", "10-20K", "5-10K", "0-5K", "0--5K", "5--10K", "10--20K", "20--50K", "50--100K", "100--200K", "200--500K", "-500K"];
             }
             for (var i = 0; i < dataRange.length; i++) {
@@ -199,7 +257,7 @@ function createObjects(input) {
         var allMetadata = geoData.features
         var countryDict = {};
         allMetadata.forEach((feature) => {
-            var defaultYear = input+2016
+            var defaultYear = input+2019
             countryDict[feature.properties.country] = feature["properties"][defaultYear]
         })
         newDict = sortObjectEntries(countryDict);
@@ -303,6 +361,64 @@ function createObjects(input) {
             layout: barLayout,
             frames: frames
         })
+
+        // JSC
+        var grid, 
+        palette = [ 
+            '#81d4fa', 
+            '#80cbc4', 
+            '#c5e1a5', 
+            '#ffe082', 
+            '#ffab91', 
+            '#f48fb1', 
+            '#9fa8da'
+        ]; 
+        var maxValues = [ 
+        500000, 
+        500000, 
+        500000, 
+        500000, 
+        500000, 
+        500000, 
+        500000 
+        ];
+        
+        JSC.fetch('brand'+input+'.csv') 
+        .then(function(response) { 
+        return response.text(); 
+        }) 
+        .then(function(text) { 
+        var dataGrid = JSC.csv2Json(text); 
+        grid = renderGrid(dataGrid); 
+        }); 
+        
+        function renderGrid(data) { 
+            var gridData = JSC.nest() 
+            .key('ANIO') 
+            .pointRollup(function(key, val) { 
+                var vendorData = { ' ': key }; 
+                for (var i = 0; i < val.length; i++) { 
+                vendorData[val[i].MARCA] = 
+                    '<absolute><chart type=bar size=70x24 max=' + 
+                    maxValues[i] + 
+                    ' data=' + 
+                    val[i].UNI_VEH + 
+                    ' colors=' + 
+                    palette[i] + 
+                    ',,none>' + 
+                    '<span style="width:40px; margin:5px 3px; color:#424242;">' + 
+                    JSC.formatNumber(val[i].UNI_VEH, 'n0') + 
+                    '</span></absolute>'; 
+                } 
+                return vendorData; 
+            }) 
+            .points(data); 
+            
+            return JSC.Grid('jsc-id', { 
+            data: gridData, 
+            className: 'dataTable'
+            }); 
+        };
     })
 }
 

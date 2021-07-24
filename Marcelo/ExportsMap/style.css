@@ -9,9 +9,10 @@ html {
 }
 
 #map-id,
-#plotly-id {
-  height: 40%;
-  width: 40%;
+#plotly-id,
+#jsc-id {
+  height: 30%;
+  width: 50%;
 }
 
 
