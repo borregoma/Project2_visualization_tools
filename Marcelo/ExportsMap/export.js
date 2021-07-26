@@ -50,6 +50,7 @@ function createObjects(input) {
                    d > 10000   ? '#a1d99b' :
                    d > 5000    ? '#c7e9c0' :
                    d > 0       ? '#e5f5e0' :
+                   d = 0       ? 'white':
                    d > -5000   ? '#fee0d2':
                    d > -10000  ? '#fcbba1':
                    d > -20000  ? '#fc9272':
@@ -190,28 +191,28 @@ function createObjects(input) {
     
         info.update = function (props) {
             if(input === "exports"){
-                this._div.innerHTML = '<h4>Vehicle Exports by Destination Country</h4>' +  (props ?
-                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                this._div.innerHTML = '<h6>Vehicle Exports by Destination Country</h6>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + numberWithCommas(props[year2020]) + '<br /><b>2019: </b>'+ numberWithCommas(props[year2019])
                     : 'Hover over a state');
             } else if(input === "sales"){
-                this._div.innerHTML = '<h4>Vehicle Sales by Origin Country</h4>' +  (props ?
-                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                this._div.innerHTML = '<h6>Vehicle Sales by Origin Country</h6>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + numberWithCommas(props[year2020]) + '<br /><b>2019: </b>'+ numberWithCommas(props[year2019])
                     : 'Hover over a state');
             } else if(input === "balance"){
-                this._div.innerHTML = '<h4>Exports-Sales Balance by Country</h4>' +  (props ?
-                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                this._div.innerHTML = '<h6>Exports-Sales Balance by Country</h6>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + numberWithCommas(props[year2020]) + '<br /><b>2019: </b>'+ numberWithCommas(props[year2019])
                     : 'Hover over a state');
             } else if(input === "exportsM"){
-                this._div.innerHTML = '<h4>Trade Value Exports by Destination Country</h4>' +  (props ?
-                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                this._div.innerHTML = '<h6>Trade Value Exports by Destination Country</h6>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + numberWithCommas(props[year2020]) + '<br /><b>2019: </b>'+ numberWithCommas(props[year2019])
                     : 'Hover over a state');
             } else if(input === "salesM"){
-                this._div.innerHTML = '<h4>Trade Value Imports by Origin Country</h4>' +  (props ?
-                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                this._div.innerHTML = '<h6>Trade Value Imports by Origin Country</h6>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + numberWithCommas(props[year2020]) + '<br /><b>2019: </b>'+ numberWithCommas(props[year2019])
                     : 'Hover over a state');
             } else {
-                this._div.innerHTML = '<h4>Trade Value Balance by Country</h4>' +  (props ?
-                    '<b>' + props.country + '<br />2020: </b>' + props[year2020] + '<br /><b>2019: </b>'+ props[year2019]
+                this._div.innerHTML = '<h6>Trade Value Balance by Country</h6>' +  (props ?
+                    '<b>' + props.country + '<br />2020: </b>' + numberWithCommas(props[year2020]) + '<br /><b>2019: </b>'+ numberWithCommas(props[year2019])
                     : 'Hover over a state');
             }
             
@@ -230,8 +231,8 @@ function createObjects(input) {
                 var dataRange = [0, 5000, 10000, 20000, 50000, 100000, 200000, 500000],
                     dataLabels = ["<5K", "5-10K", "10-20K", "20-50K", "50-100K", "100-200K", "200-500K", "500K"];
             } else if(input === "balance"){
-                var dataRange = [500000, 200000, 100000, 50000, 20000, 10000, 5000, 1, -1, -5000, -10000, -20000, -50000, -100000, -200000, -500000],
-                    dataLabels = ["500K+", "200-500K", "100-200K", "50-100K", "20-50K", "10-20K", "5-10K", "0-5K", "0--5K", "5--10K", "10--20K", "20--50K", "50--100K", "100--200K", "200--500K", "-500K"];
+                var dataRange = [500000, 200000, 100000, 50000, 20000, 10000, 5000, 0, -1, -5000, -10000, -20000, -50000, -100000, -200000, -500000],
+                    dataLabels = ["500K+", "200-500K", "100-200K", "50-100K", "20-50K", "10-20K", "5-10K", "0-5K", "-0-5K", "-5-10K", "-10-20K", "-20-50K", "-50-100K", "-100-200K", "-200-500K", "-500K"];
             } else if(input === "exportsM"){
                 var dataRange = [0, 1000000, 20000000, 50000000, 100000000, 200000000, 500000000, 1000000000],
                     dataLabels = ["<1M", "1-20M", "20-50M", "50-100M", "100M-200M", "200-500M", "500M-1B", "1B"];
@@ -254,6 +255,19 @@ function createObjects(input) {
         legend.addTo(myMap);
 
         ///////PLOTLY///////
+        if(input === "exports"){
+            var barcolor = "green"
+        } else if(input === "sales"){
+            var barcolor = "blue"
+        } else if(input === "balance"){
+            var barcolor = "orange"
+        } else if(input === "exportsM"){
+            var barcolor = "green"
+        } else if(input === "salesM"){
+            var barcolor = "blue"
+        } else {
+            var barcolor = "orange"
+        } 
         var allMetadata = geoData.features
         var countryDict = {};
         allMetadata.forEach((feature) => {
@@ -271,13 +285,14 @@ function createObjects(input) {
             name: input,
             type: "bar",
             orientation: "h",
-            color: "red"
+            marker: {color: barcolor}
+            
             };
         var barData = [trace1];
 
         var steps = []
         var frames = []
-        for(var i=2005; i<2021; i++){
+        for(var i=2006; i<2021; i++){
             var eachStep = {
                 label: `${i}`,
                 method: 'animate',
@@ -425,7 +440,13 @@ function createObjects(input) {
         500000 
         ];
 
-
+        if(input === "salesM"){
+            input = "sales";
+        } else if(input === "exportsM"){
+            input = "exports";
+        } else if(input === "balanceM"){
+            input = "balance";
+        }
         JSC.fetch('brand'+input+'.csv') 
         .then(function(response) { 
         return response.text(); 
@@ -479,3 +500,6 @@ d3.selectAll("#dataButton").on("click", function(){
     createObjects(input)
 })
 
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}

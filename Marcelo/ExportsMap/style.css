@@ -25,6 +25,7 @@ html {
   float: right;
 }
 
+
 .info {
   padding: 6px 8px;
   font: 14px/16px Arial, Helvetica, sans-serif;
@@ -33,18 +34,20 @@ html {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
 }
-.info h4 {
+.info h6 {
   margin: 0 0 5px;
-  color: rgb(77, 77, 77);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
 }
 
 .legend {
-  line-height: 18px;
+  line-height: 13px;
   color: rgb(77, 77, 77);
+  font-size: smaller;
 }
 .legend i {
-  width: 18px;
-  height: 18px;
+  width: 13px;
+  height: 13px;
   float: left;
   margin-right: 8px;
   opacity: 0.7;
