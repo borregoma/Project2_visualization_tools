@@ -95,8 +95,9 @@ function createObjects(input) {
                    d > -200000000 ? '#ef3b2c':
                    d > -500000000 ? '#cb181d':
                    d > -1000000000 ? '#99000d':
-                                 '#ECECED';
-            }fee0d2
+                   d > -10000000000 ? '#99000d':
+                                 '#ffffff';
+            }
         };
     
         layerGrouped = [lightmap];
