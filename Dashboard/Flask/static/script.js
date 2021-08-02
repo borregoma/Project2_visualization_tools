@@ -394,7 +394,7 @@ d3.json("/json").then(function(data){
             frames: frames
         })
     
-        // JSC
+        ///////JSC///////
         d3.select("#jsc-id").html(" ");
         var grid, 
             palette = [ 
@@ -464,15 +464,20 @@ d3.json("/json").then(function(data){
         } else if(input === "balanceM"){
             input = "balance";
         }
-        JSC.fetch('brand'+input+'.csv') 
-        .then(function(response) { 
-        return response.text(); 
-        }) 
-        .then(function(text) { 
-        var dataGrid = JSC.csv2Json(text); 
-        grid = renderGrid(dataGrid); 
-        }); 
-        
+
+        // if(input === "balance"){
+        //     var gridJson = data[6]
+        // } else if(input === "exports"){
+        //     var gridJson = data[7]
+        // } else if(input === "sales"){
+        //     var gridJson = data[8]
+        // }
+
+        d3.json("/brand"+input).then(function(gridJson){
+            renderGrid(gridJson);
+        })
+
+
         function renderGrid(data) { 
             var gridData = JSC.nest() 
             .key('ANIO') 
@@ -483,12 +488,12 @@ d3.json("/json").then(function(data){
                     '<absolute><chart type=bar size=70x24 max=' + 
                     maxValues[i] + 
                     ' data=' + 
-                    val[i].UNI_VEH + 
+                    val[i].VEHICULOS + 
                     ' colors=' + 
                     palette[i] + 
                     ',,none>' + 
                     '<span style="width:40px; margin:5px 3px; color:#424242;">' + 
-                    JSC.formatNumber(val[i].UNI_VEH, 'n0') + 
+                    JSC.formatNumber(val[i].VEHICULOS, 'n0') + 
                     '</span></absolute>'; 
                 } 
                 return vendorData; 
